@@ -1,0 +1,2 @@
+# exersare
+pentru a exersa
