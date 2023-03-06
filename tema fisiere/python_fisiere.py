@@ -4,16 +4,16 @@ import operator
 from datetime import datetime
 
 """Adaugare categorii"""
-# def adaugare_categorii()
-#     with open("categorii.txt", "a") as file:
-#         while True:
-#             categorie = input("introduceti o categorie de taskuri. tastati enter pentru a incheia: ")
-#             if categorie == "":
-#                 break
-#             else:
-#                 file.write(categorie)
-#
-# adaugare_categorii()
+def adaugare_categorii():
+    with open("categorii.txt", "a") as file:
+        while True:
+            categorie = input("introduceti o categorie de taskuri. tastati enter pentru a incheia: ")
+            if categorie == "":
+                break
+            else:
+                file.write(categorie)
+
+adaugare_categorii()
 
 """Adaugare taskuri"""
 def check_category(category):
